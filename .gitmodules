@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/cs188-software-design-security-w20/chefmoji-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/cs188-software-design-security-w20/chefmoji-frontend.git
