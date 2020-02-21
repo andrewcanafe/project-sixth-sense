@@ -6,12 +6,16 @@ install:
 build-base:
 	cd backend && make build-base
 
+install-frontend:
+	npm install protobufjs
+	make build-frontend
+
 build-frontend:
 	cd frontend && npm run build
 
 build-prod: build-frontend
 	docker build . -t $(BACKEND_REPO)
-	
+
 prod: build-prod
 	docker run -p $(SERVER_PORT):$(SERVER_PORT) -p $(MYSQL_PORT):$(MYSQL_PORT) $(BACKEND_REPO)
 
