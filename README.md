@@ -4,7 +4,7 @@ Chefmoji is a synchronized multiplayer web-based game where pairs of players col
 
 ### To Build
 
-You will need to clone this repository then run some commands in the Makefile. 
+You will need to clone this repository then run some commands in the Makefile. Using a command window, navigate to an empty directory on your computer and run the following commands:
 
 ```
 git clone https://github.com/cs188-software-design-security-w20/project-sixth-sense.git
@@ -19,7 +19,7 @@ Go to [www.chefmoji.wtf](https://www.chefmoji.wtf), where you will be greeted by
 
 Now is a good time to pull out your smart device of choice and download [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2). This will be used for multi-factor authentication. 
 
-Head over to your email inbox and open the email sent from Chefmoji. When you click the verification link, you will be routed to a page where you can either scan a QR code using Google Authenticator or manually type the code into the app. After this, you're all set!
+Head over to your email inbox and open the email sent from Chefmoji. When you click the verification link, you will be routed to a page where you can either scan the given QR code using Google Authenticator or manually type the code into the app. After this, you're all set to log in!
 
 ### To Log In
 
