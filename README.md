@@ -1,6 +1,8 @@
-# Chefmoji
+# 👩‍🍳Chefmoji👨‍🍳
 
-Chefmoji is a synchronized multiplayer web-based game where pairs of players collaborate to serve plated meals. After logging in, users can either create a new game or join an existing one. In games, players navigate a 2D map comprised entirely of emojis, follow recipes to cook various emoji dishes, and rack up points with each successfully completed meal. 
+Chefmoji is a synchronized multiplayer web-based game where pairs of players collaborate to serve plated meals. After logging in, users can either create a new game or join an existing one. In games, players navigate a 2D map comprised entirely of emoji, follow recipes to cook various emoji dishes, and rack up points with each successfully completed meal. 
+
+Chefmoji is an application develeped by Team Sixth Sense.
 
 ### To Build
 
