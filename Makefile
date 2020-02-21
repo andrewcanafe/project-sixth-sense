@@ -7,7 +7,7 @@ build-base:
 	cd backend && make build-base
 
 build-frontend:
-	cd frontend && npm run build > /dev/null 2>&1 &
+	cd frontend && npm run build
 
 build-prod: build-frontend
 	docker build . -t $(BACKEND_REPO)
@@ -21,6 +21,9 @@ debug-prod: build-prod
 # Authenticate Docker client
 ecr-login:
 	$(shell aws ecr get-login --no-include-email --region us-west-1)
+
+ec2-login:
+	ssh -i $(PEM_FILE) ec2-user@$(EC2_IP)
 
 push: build-base build-prod ecr-login
 	docker tag $(BACKEND_REPO):latest $(ECR_URI)/$(BACKEND_REPO):latest
