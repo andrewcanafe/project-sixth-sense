@@ -32,3 +32,4 @@ ec2-login:
 push: build-base build-prod ecr-login
 	docker tag $(BACKEND_REPO):latest $(ECR_URI)/$(BACKEND_REPO):latest
 	docker push $(ECR_URI)/$(BACKEND_REPO):latest
+	scp -i $(PEM_FILE) backend/nginx/conf/nginx.conf ec2-user@$(EC2_IP):nginx.conf
