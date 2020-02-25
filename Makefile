@@ -2,6 +2,7 @@ include .env
 
 install:
 	cd backend && make install && make build-base
+	find backend -name chefmoji.pem && cp $(find backend -name chefmoji.pem) chefmoji.pem
 
 build-base:
 	cd backend && make build-base

@@ -20,7 +20,7 @@ RUN chmod -R ug+rwx /app
 
 ENV FLASK_ENV=development
 
-EXPOSE 80 8080
+EXPOSE 80 8080 3306
 
 CMD ["supervisord", "-c", "/etc/supervisord.conf"]
 
