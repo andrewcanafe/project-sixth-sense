@@ -19,9 +19,9 @@ make prod
 
 Go to [www.chefmoji.wtf](https://www.chefmoji.wtf), where you will be greeted by the login page. Click `sign up`, and enter in a unique player ID, a strong password, and a valid email address. Click `make my account!` to register this information with Chefmoji. Once you've successfully registered an account, a verification link will be sent to your email address. 
 
-Now is a good time to pull out your smart device of choice and download [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2). This will be used for multi-factor authentication. 
+Now is a good time to pull out your smart device of choice and download [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), Duo Mobile, Authy, or any other authentication app. This will be used for multi-factor authentication. 
 
-Head over to your email inbox and open the email sent from Chefmoji. When you click the verification link, you will be routed to a page where you can either scan the given QR code using Google Authenticator or manually type the code into the app. After this, you're all set to log in!
+Head over to your email inbox and open the email sent from Chefmoji. When you click the verification link, you will be routed to a page where you can either scan the given QR code using your authenticator or manually type the code into the app. After this, you're all set to log in!
 
 ### To Log In
 
