@@ -6,7 +6,7 @@ Chefmoji is an application developed by Team Sixth Sense.
 
 ### To Build
 
-You will need to clone this repository then run some commands in the Makefile. Using a command window, navigate to an empty directory on your computer and run the following commands:
+You will need to clone this repository then run some commands in the Makefile. Using a command window, navigate to an empty directory on your computer and run the following commands. Note that you will need 2 .env files and a .pem file to build the project, which can be obtained from the original developers. (However, these files are *TOP SECRET* and we probably won't give them to you. Sorry.)
 
 ```
 git clone https://github.com/cs188-software-design-security-w20/project-sixth-sense.git
