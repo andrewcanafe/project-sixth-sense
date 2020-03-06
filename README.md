@@ -11,6 +11,7 @@ You will need to clone this repository then run some commands in the Makefile. U
 ```
 git clone https://github.com/cs188-software-design-security-w20/project-sixth-sense.git
 git submodule update --init --recursive
+make install
 make build-base
 make prod
 ```
