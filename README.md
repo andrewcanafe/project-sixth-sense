@@ -19,7 +19,7 @@ View the live site on [localhost:8080](http://localhost:8080/).
 
 ### To Sign Up
 
-Go to [www.chefmoji.wtf](https://www.chefmoji.wtf), where you will be greeted by the login page. Click `sign up`, and enter in a unique player ID, a strong password, and a valid email address. Click `make my account!` to register this information with Chefmoji. Once you've successfully registered an account, a verification link will be sent to your email address. 
+Go to [chefmoji.wtf](https://chefmoji.wtf), where you will be greeted by the login page. Click `sign up`, and enter in a unique player ID, a strong password, and a valid email address. Click `make my account!` to register this information with Chefmoji. Once you've successfully registered an account, a verification link will be sent to your email address. 
 
 Now is a good time to pull out your smart device of choice and download [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), Duo Mobile, Authy, or any other authentication app. This will be used for multi-factor authentication. 
 
@@ -27,4 +27,4 @@ Head over to your email inbox and open the email sent from Chefmoji. When you cl
 
 ### To Log In
 
-Go to [www.chefmoji.wtf](https://www.chefmoji.wtf), and enter in your player ID and password. Pull out your Google Authenticator app and enter the 6-digit key into the login form. Finally, click `log in`. If the information you entered was correct, you will be redirected to a simple dashboard where you can create or join games. 
+Go to [chefmoji.wtf](https://chefmoji.wtf), and enter in your player ID and password. Pull out your Google Authenticator app and enter the 6-digit key into the login form. Finally, click `log in`. If the information you entered was correct, you will be redirected to a simple dashboard where you can create or join games. 
