@@ -4,6 +4,10 @@ Chefmoji is a synchronized multiplayer web-based game where pairs of players col
 
 Chefmoji is an application developed by Team Sixth Sense. Visit [chefmoji.wtf](https://chefmoji.wtf) in Google Chrome on your laptop or desktop computer to start playing!
 
+### Platform
+
+Ensure you are upgraded to macOS Catalina to have the most updated emoji support.
+
 ### To Build
 
 You will need to clone this repository then run some commands in the Makefile. Using a command window, navigate to an empty directory on your computer and run the following commands. Note that you will need 2 .env files and a .pem file to build the project, which can be obtained from the original developers. (However, these files are ***TOP SECRET*** and we probably won't give them to you. Sorry.)
